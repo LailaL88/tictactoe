@@ -90,11 +90,11 @@ function onPageLoaded() {
 
     function getWinner(cell1, cell2, cell3) {
         if (cell1.innerText == "X" && cell2.innerText == "X" && cell3.innerText == "X") {
-            winner.innerText = " X wins!";
+            winner.innerText = " X won!";
             gameOver = true;
         }
         if (cell1.innerText == "O" && cell2.innerText == "O" && cell3.innerText == "O") {
-            winner.innerText = " O wins!";
+            winner.innerText = " O won!";
             gameOver = true;
         }
     }
