@@ -52,12 +52,12 @@ function onPageLoaded() {
             if (gameOver) {
                 gameField.addEventListener("click", stopClick, true);
                 gameOverText.innerText = "Game Over!";
-                gameBody.style.backgroundColor = "indianred";
+                gameBody.style.backgroundColor = "yellowgreen";
             } else if (cellArr.length > 8) {
                 gameField.addEventListener("click", stopClick, true);
                 gameOverText.innerText = "Game Over!";
                 winner.innerText = "There is no winner!";
-                gameBody.style.backgroundColor = "indianred";
+                gameBody.style.backgroundColor = "yellowgreen";
             }
         })
     })

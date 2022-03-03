@@ -1,6 +1,11 @@
+.game {
+    width:max-content;
+    margin: 0 auto;
+}
+
 .wrapper div {
     height: 165px;
-    width: 35%;
+    width: 165px;
     border: 1px solid rgb(207, 7, 40);
     margin: 2px;
     display: flex;
@@ -12,7 +17,7 @@
 }
 
 .wrapper {
-    width: 45%;
+    width: max-content;
     margin: 0 auto;
     display: flex;
 }
@@ -23,15 +28,12 @@ p {
     display: inline;
 }
 
-#winner {
-    font-size: 30px;
-    float: right;
-    margin: 0;
+.header {
+    text-align: center;
 }
 
-.header {
-    width: 45%;
-    margin: 0 auto;
+#winner {
+    font-size: 30px;
 }
 
 .button-container {
@@ -55,9 +57,12 @@ button {
         margin-bottom: 30px;
     }
     .wrapper {
-        width: 95%;
+        width: auto;
+        display: flex;
+        justify-content: center;
     }
     .wrapper div {
-        height: 20vh;
+        height: 80px;
+        width: 80px;
     }
 }
