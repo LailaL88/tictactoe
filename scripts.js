@@ -56,7 +56,7 @@ function onPageLoaded() {
             } else if (cellArr.length > 8) {
                 gameField.addEventListener("click", stopClick, true);
                 gameOverText.innerText = "Game Over!";
-                winner.innerText = "There is no winner!";
+                winner.innerText = "It's a tie!";
                 gameBody.style.backgroundColor = "yellowgreen";
             }
         })
